@@ -10,8 +10,7 @@ hub_stats_tool = HubStatsInfo()
 
 guest_tools = load_guest_dataset()
 
-tools = [search_tool, weather_info_tool, hub_stats_tool]
-tools.append(guest_tools)
+tools = [search_tool, weather_info_tool, hub_stats_tool] + guest_tools
 
 def main(): 
     
@@ -19,8 +18,7 @@ def main():
         tools=tools, 
         model=model, 
         add_base_tools=True, 
-        planning_interval=3,
-        memory = True)
+        planning_interval=3)
 
     print("Enter a question or 'quit' to exit:")
     query = input()
