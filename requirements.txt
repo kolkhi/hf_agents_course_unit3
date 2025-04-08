@@ -1,0 +1,15 @@
+dotenv-python
+datasets
+llama-index
+llama-index-retrievers-bm25
+llama_index.llms.huggingface_api
+llama_index.tools.duckduckgo
+langchain
+langchain-community
+rank_bm25
+smolagents
+huggingface_hub
+typing
+langgraph
+langchain_core
+langchain_huggingface
