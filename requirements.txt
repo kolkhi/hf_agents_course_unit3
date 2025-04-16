@@ -13,3 +13,5 @@ typing
 langgraph
 langchain_core
 langchain_huggingface
+google-adk
+litellm
