@@ -7,8 +7,11 @@ Agents were created based on the Unit3 of the HuggingFace Agents course ([Huggin
 Use the following commands to run agents:
 
 > python ./smolagents/app.py
+
 > python ./langgraph/app.py
+
 > python ./llama-index/app.py
+
 > python adk run google-adk
 
 >[!NOTE]
